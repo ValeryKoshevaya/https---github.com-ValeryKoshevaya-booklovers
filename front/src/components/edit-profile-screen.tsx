@@ -1,4 +1,3 @@
-import type React from "react";
 import { useState, useEffect } from "react";
 import { ArrowLeft, Camera, Trash2 } from "lucide-react";
 import { Button } from "./ui/button";
