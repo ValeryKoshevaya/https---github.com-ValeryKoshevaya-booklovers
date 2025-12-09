@@ -1,0 +1,13 @@
+{
+  "name": "booklovers-root",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix front\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:front": "npm run dev --prefix front",
+    "backend:init-db": "npm run init-db --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
